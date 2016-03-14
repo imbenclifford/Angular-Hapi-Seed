@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    color: #4A4816;
+    color: #1D1A05;
 }
 
 .image-container {
@@ -11,4 +11,29 @@ body {
 .links-container {
     text-align: center;
     margin: 20px auto;
+}
+
+.background {
+    background: linear-gradient(182deg, #2cbd98, #bdba2c, #bd4d2c, #bd2c2c, #bd2ca4, #fff, #2c62bd);
+    background-size: 1400% 1400%;
+
+    -webkit-animation: AnimationName 60s ease infinite;
+    -moz-animation: AnimationName 60s ease infinite;
+    animation: AnimationName 60s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
 }
